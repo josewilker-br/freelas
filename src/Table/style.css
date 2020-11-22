@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', 'sans-serit';
+    height: 100vh;
+}
+
+#menu{
+    width: 35px;
+    height: 35px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.titles{
+    color: #012840;
+    font-size: 22px;
+    margin-left: 10%;
+    width: 100%;
+}
+
+#table{
+    width: 800px !important;
+}
+
+.table thead {
+    background-color: #000;
+}
+
+
+
+.table thead tr th{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.actions{
+    position: fixed;
+    bottom: 15%;
+    margin-left: 10%;
+    width: 150px;
+    height: 40px;
+    background: #6c63ff;
+    border: 1px solid #6c63ff;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#jobs tr {
+    background: #fff;
+}
+

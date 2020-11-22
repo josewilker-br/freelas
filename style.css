@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', 'sans-serit';
+}
+
+#menu{
+    width: 35px;
+    height: 35px;
+}
+
+.content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#welcome{
+    color: #012840;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+#info{
+    text-align: center;
+    color: #9D9D9D;
+    font-size: 16px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.actions{
+    margin: 0px 45px 0px 45px;
+    width: 150px;
+    height: 40px;
+    background: #6C63FF;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
